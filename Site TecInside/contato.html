@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>TECINSIDE</title>
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/estilo.css">
+      <script SRC="js/jquery.min.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
+ </head>
+<body background=img/FUNDO2.jpg>
+<div class="container">
+		<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">TECINSIDE</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="quemsomos.html">Quem Somos</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projetos
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="gp.html">GoodParty</a></li>
+          <li><a href="#">projeto2</a></li>
+          <li><a href="#">projeto3</a></li>
+          <li><a href="#">projeto4</a></li>
+        </ul>
+      </li>
+      <li><a href="equipe.html">Equipe</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="row">
+  <div class="col-md-6">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.411294362485!2d-46.68087268560648!3d-24.12218998440744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce27e8f7751d31%3A0x6382eb95def97024!2sEtec+Adolpho+Berezin!5e0!3m2!1spt-BR!2sbr!4v1541984950565" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  <div class="col-md-6">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+        <a href="#" data-toggle="modal" data-target="#entrarcontato" id="contato">Clique aqui para entrar em contato</a>
+        </div>
+        <div id="entrarcontato" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+              <h4 class="modal-title">Preencha o formulário abaixo</h4>
+                </div>
+                  <div class="modal-body">
+                    <form class="form-group">
+                    <label>Nome</label><br>
+                    <input type="text" class="form-control" name="nome">
+                    <label>Telefone</label><br>
+                    <input type="text" class="form-control" name="telefone">
+                      <label>E-mail</label><br>
+                    <input type="text" class="form-control" name="email">
+                    <label>Mensagem:</label>
+                     <textarea class="form-control" rows="6"></textarea>
+                    </form>
+                  </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-send">  Enviar</span></button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Sair  <span class="glyphicon glyphicon-log-out"></span></button>
+                </div>
+              </div>          
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+
+	
+</div>
+
+</body>
+</html>
